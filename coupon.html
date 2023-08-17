@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html data-theme="cupcake"></html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body  class=" ">
+    <div class="flex justify-center">
+      <div class="w-2/4 border-teal-950  p-8 m-10 bg-slate-300 rounded-md" id="">
+        <h1 class="text-center font-semibold text-6xl">Shoes</h1>
+    </div>
+    </div>
+    <div class="flex justify-center gap-20" id="">
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure><img class="w-80" src="image/andres-jasso-PqbL_mxmaUE-unsplash.jpg" alt="Shoes" /></figure>
+          <div className="card-body">
+            <h2 className="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <button id="juta1" className="btn btn-primary" class="bg-cyan-500 px-10 text-xl py-3 rounded-md" >$<span >50</span></button>
+            </div>
+          </div>
+        </div>
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure><img src="image/martin-katler-Y4fKN-RlMV4-unsplash.jpg" alt="Shoes" class="w-80"/></figure>
+            <div className="card-body" class="pt-12">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions justify-end">
+                <button id="juta2" class="bg-cyan-500 px-10 text-xl py-3 rounded-md"  className="btn btn-primary">$<span >80</span></button>
+              </div>
+            </div>
+          </div>
+          <div className="card card-compact w-96 bg-base-100 shadow-xl">
+            <figure><img src="image/mojtaba-fahiminia-t4g1gctAaKk-unsplash.jpg" alt="Shoes" class="w-80" /></figure>
+            <div className="card-body">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions justify-end">
+                <button id="juta3" class="bg-cyan-500 px-10 text-xl py-3 rounded-md" className="btn btn-primary">$<span >60</span></button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <section class="flex justify-center gap-10">
+      <div class="bg-red-400 w-3/4 h-36 mt-3 flex justify-center items-center gap-10" id="">
+        <h1 class="text-white text-3xl" id="">Grab 10% discount with NEW_KAMAL coupon</h1>
+        <input placeholder="enter coupon code" type="text" name="" id="coupon" class="py-2 px-2 rounded">
+        <button class="bg-slate-100 hover:bg-slate-500 hover:text-white text-black px-5 rounded-md py-2" id="button">submit</button>
+      </div>
+      <div class="text-center text-4xl  rounded-md mt-3 w-40 h-36 bg-orange-400 text-white" id="">
+        <h1 class="text-center text-4xl pt-7 " id="totalText">Total</h1>
+        <h1 class="pt-2" id="">$<span id="total">00</span></h1>
+      </div>
+    </section>
+
+    </div>
+
+    <script src="coupon.js"></script>
+</body>
+</html>
