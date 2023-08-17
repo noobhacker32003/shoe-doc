@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="flex justify-center items-center mt-40">
+        <div class=" justify-center items-center  bg-blue-300 rounded-md h-[680px] w-3/4" id="">
+            <h1 class="text-center text-black font-medium text-5xl p-4 pb-14">My text editor</h1>
+            <div class="mx-auto bg-sky-200 w-3/4 h-[500px] border-black border-2 border-spacing-10" id="">
+                <div class="flex justify-around" id="">
+                    <ul class="flex">
+
+                        <li><button><img id="bold" class="w-9" src="icon/bold.png" alt="" srcset=""></button></li>
+
+                        <li><button><img id="italic" class="w-9"  src="icon/italic.png" alt="" srcset=""></button></li>
+
+                        <li><button><img id="under" class="w-9" src="icon/under.png" alt="" srcset=""></button></li>
+                    </ul>
+                    <ul class="flex">
+                        <li><img id="right" src="icon/left align.png" alt="" class="w-9" srcset=""></li>
+
+                        <li><img id="center" src="icon/middle.png" alt="" class="w-9" srcset=""></li>
+
+                        <li><img id="justify" class="w-9" src="icon/justify.png" alt="" srcset=""></li>
+
+                        <li><img id="left" src="icon/icons8-align-64.png" alt="" class="w-9" srcset=""></li>
+                    </ul>
+                    <ul class="flex items-center gap-2">
+                        <li><input class="w-10" type="number" name="" id=""></li>
+                        <li><button><img src="icon/icons8-font-size-30.png" alt="" srcset=""></button></li>
+                        <li><input id="color" type="color" name="" ></li>
+                    </ul>
+                </div>
+                <div class=" bg-white w-[1010px] h-[430px] mx-auto flex justify-center items-center" id="">
+                    <textarea class=" border-none outline-none  w-[980px] h-[400px] " name="" id="textarea" ></textarea>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="doc.js"></script>
+</body>
+</html>
